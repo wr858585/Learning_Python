@@ -1,5 +1,5 @@
 #   Placeholder
-#   Inserting values in string
+#   Inserting values in string using %s and %
 
 joke_text = '%s: a perfect device for you'
 bodypart1 = 'Android'
