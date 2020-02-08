@@ -1,4 +1,4 @@
-#   Bool is short for Boolean which is a value as either True or False
+# Bool is short for Boolean which is a value as either True or False
 
 flag0 = 1 == 1
 flag1 = 3 > 2
@@ -14,3 +14,5 @@ print('flag4 =', flag4)
 print('flag5 =', flag5)
 print(flag1 is True)
 print(flag2 is not False)
+
+# Please note != means not equal to sth
