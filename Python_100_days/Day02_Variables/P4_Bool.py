@@ -15,8 +15,19 @@ print('flag5 =', flag5)
 print(flag1 is True)
 print(flag2 is not False)
 print('\u0040')
+print('abc', 'bcd')
+print('a =', flag0)
+print('hello %f' % 123.45)
+a = 123
+print('a =', a)
+print('a = %s' % a)
+print('a = %d' % a)
+b = 'oono'
+print('b = %s' % b)
+print(f'b = {b}')
+
 
 # Please note != means not equal to sth
 # In line 17, \u0040 (any \uxxxx) is a variation of escaping characters (\u) but it means to match the corresponding
-# characters or symbols of 0040 as per universal character code like UTF-8. However, the result is a string and should
+# characters or symbols of 0040 as per universal character Practice like UTF-8. However, the result is a string and should
 # not be printed without quotes or otherwise object not defined.
