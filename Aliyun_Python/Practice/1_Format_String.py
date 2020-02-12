@@ -20,3 +20,6 @@ print(f'{body_part_1}{name}{body_part_2}')
 
 # As we can notice, solution 2 appears to be different from the remaining three as there are extra spaces between
 # the three parts when run. Reason being arguments of print function generate spaces automatically.
+
+# Solution 4 seems kind of unfamiliar using braces connecting variables but it does the job to convert values into
+# string and make printing feasible.
