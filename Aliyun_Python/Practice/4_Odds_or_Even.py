@@ -8,3 +8,7 @@ if number % 2 == 0:
 
 else:
     print('It is an odds.')
+
+# Another approach: use print function arguments to display input and other text combined.
+# print(number, 'is an even.')
+# print(number, 'is an odds.')
