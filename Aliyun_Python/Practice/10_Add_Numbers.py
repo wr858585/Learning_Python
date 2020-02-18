@@ -5,27 +5,28 @@
 
 num = 0
 result = 0
-amount = 0
+count = 0
 
 while num < 100:
     num += 1
     if num % 7 == 0:
         result += num
-        amount += 1
+        count += 1
 
 print('sum =', result)
-print('amount =', amount)
+print('amount =', count)
 
 # Solution 2: change the default/initial variable values
 
 num = 7
 result = 0
-amount = 0
+count = 0
 
 while num < 100:
     result += num
     num += 7
-    amount += 1
+    count += 1
 
 print('sum =', result)
-print('amount =', amount)
+print('amount =', count)
+
