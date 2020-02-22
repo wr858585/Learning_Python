@@ -26,8 +26,13 @@ b = 'oono'
 print('b = %s' % b)
 print(f'b = {b}')
 
+flag6 = 10 < 20 > 15
+print(flag6)
 
 # Please note != means not equal to sth
 # In line 17, \u0040 (any \uxxxx) is a variation of escaping characters (\u) but it means to match the corresponding
 # characters or symbols of 0040 as per universal character Practice like UTF-8. However, the result is a string and should
 # not be printed without quotes or otherwise object not defined.
+
+# flag6 illustrates a unique mechanism of python where the middle compares the left and the right separately. If both
+# true, return True.
