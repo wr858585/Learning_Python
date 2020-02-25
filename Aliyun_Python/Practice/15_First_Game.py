@@ -54,3 +54,6 @@ while flag:
         print('You quit. Game over.')
     else:
         print('Please enter a valid number.')
+
+# Tip: Next time simply write 'While True:' on line 30 with 'break' on line 54 to exit. An equivalent universal\
+# approach.
