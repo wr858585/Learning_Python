@@ -27,3 +27,8 @@ print(animal.index('l', 2, 3))  # 2
 print(animal.count('n'))
 
 # (lines 14-17) remember to use colon instead of comma in brackets when slicing.
+
+s = 'hello'
+print(s[0: 2])
+print(s[0: 2: 1])
+print(s[0: 2: 2])
