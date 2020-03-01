@@ -1,5 +1,5 @@
 
-# Question: Print the multiplication table.
+# Task: Print the multiplication table.
 
 # Solution 1: Use placeholders
 

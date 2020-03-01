@@ -1,4 +1,5 @@
-# Question: Add all positive odds numbers under 100.
+
+# Task: Add all positive odds numbers under 100.
 
 # Solution 1: while + if statements
 

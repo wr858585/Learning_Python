@@ -1,5 +1,5 @@
 
-# Question: Create a game where player can play as hero fighting against Hybrid.
+# Task: Create a game where player can play as hero fighting against Hybrid.
 
 print('Choose your side:')
 print('1. Order')

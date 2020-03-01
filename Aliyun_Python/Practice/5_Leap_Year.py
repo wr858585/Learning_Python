@@ -1,5 +1,5 @@
 
-# Question: Check if the year that user types is leap year.
+# Task: Check if the year that user types is leap year.
 
 year = int(input('Please enter the year: '))
 

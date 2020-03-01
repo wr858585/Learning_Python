@@ -1,5 +1,5 @@
 
-# Question: Give Tom rewards as per his final exam result.
+# Task: Give Tom rewards as per his final exam result.
 
 result = int(input("Tom's final exam result: "))
 

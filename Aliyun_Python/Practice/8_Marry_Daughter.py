@@ -1,5 +1,5 @@
 
-# Question: Help mother Lisa develop an automatic filter for selecting perspective husband for her daughter, Elsa.
+# Task: Help mother Lisa develop an automatic filter for selecting perspective husband for her daughter, Elsa.
 # Selecting criteria are as follows:
 #   1. He should be over 180cm in height.
 #   2. He should have assets over 10 million dollars.

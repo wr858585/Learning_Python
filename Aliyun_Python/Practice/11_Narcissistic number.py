@@ -1,5 +1,5 @@
 
-# Question: Find all Narcissistic numbers under 1000.
+# Task: Find all Narcissistic numbers under 1000.
 
 # Background information: Narcissistic numbers are those whose value is equal to the sum of its own digits each raised
 # to the power of the number of digits.

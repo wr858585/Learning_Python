@@ -1,5 +1,5 @@
 
-# Question: Create a variable to store your name and print the following message
+# Task: Create a variable to store your name and print the following message
 # 欢迎xxx同学，SHUFE欢迎你！
 
 name = '大野'

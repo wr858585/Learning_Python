@@ -1,5 +1,5 @@
 
-# Question 1: Print a picture of stars with height = 32 and width = 7
+# Task 1: Print a picture of stars with height = 32 and width = 7
 
 # Solution 1: (Correct)
 

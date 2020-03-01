@@ -1,5 +1,5 @@
 
-# Question: Determine whether the number that user types is an odds or even.
+# Task: Determine whether the number that user types is an odds or even.
 
 number = int(input('Please type a number: '))
 
