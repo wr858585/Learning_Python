@@ -1,4 +1,5 @@
-# Question: Get the sum of all positive numbers under 100 that can be divided by 7. Count how many numbers satisfying
+
+# Task: Get the sum of all positive numbers under 100 that can be divided by 7. Count how many numbers satisfying
 # the requirement.
 
 # Solution 1: while and if statements

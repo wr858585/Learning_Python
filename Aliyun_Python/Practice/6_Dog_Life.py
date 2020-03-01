@@ -1,6 +1,7 @@
+
 # Background information: a dog's life can be calculated in a way which is equivalent to human's.
 # Formula: dog's life = 10.5 * the first two years + 4 * the following years
-# Question: Convert dog's life when user enters the number
+# Task: Convert dog's life when user enters the number
 
 life = float(input('Please enter your dog\'s life: '))
 

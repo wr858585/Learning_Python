@@ -1,4 +1,5 @@
-# Question: Fetch the username that user types in command line and do the following
+
+# Task: Fetch the username that user types in command line and do the following
 # Write 'Welcome, admin' if the username is admin/Admin/ADMIN or otherwise do nothing.
 
 # Solution 1: (Incorrect)

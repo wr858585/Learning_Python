@@ -1,5 +1,5 @@
 
-# Question: Use a range of operations to work with mutable sequences like lists.
+# Question: Use a range of operations to work with mutable sequences such as a list without changing it.
 
 chars = ['孙悟空', '猪八戒', '沙和尚', '唐僧', '蜘蛛精', '白骨精']
 

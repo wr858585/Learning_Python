@@ -1,5 +1,5 @@
 
-# Question 1: Determine whether the number user inputs is a prime number.
+# Task 1: Determine whether the number user inputs is a prime number.
 
 from time import *
 
@@ -30,7 +30,7 @@ print('Time used:', end - begin)
 
 print()
 
-# Question 2: Get all prime numbers under 10000.
+# Task 2: Get all prime numbers under 10000.
 
 # Solution 1: Original Answer
 

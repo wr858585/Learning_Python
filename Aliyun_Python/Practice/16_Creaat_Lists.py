@@ -1,5 +1,5 @@
 
-# Question: Create a list that contains my friend's names.
+# Task: Create a list that contains my friend's names.
 
 friends = ['Z', 'Lulu', 'Daqing', 'Zhouyi', 'Wood', 'Dawei', 'Dashen']
 

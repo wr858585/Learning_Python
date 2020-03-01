@@ -1,4 +1,5 @@
-# Question: Find the max value of the three variables a, b, and c using if logic, values of which are 10, 20, and 30
+
+# Task: Find the max value of the three variables a, b, and c using if logic, values of which are 10, 20, and 30
 # respectively
 
 a = 10
