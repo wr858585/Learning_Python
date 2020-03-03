@@ -18,6 +18,7 @@ j = 1
 while True:
     print(narrative)
     choice = input('请选择（1-4）：')
+    print('-' * 100)
     if choice == '1':
         i = 1
         print('\t序号\t姓名\t年龄\t性别\t住址')
@@ -27,6 +28,7 @@ while True:
             # It is i-1 in the brackets as a is in list 'numbers' and the first element is 1.
             # Loop i needs to be in if_statement == '1' or otherwise there would be issues deleting employees since\
             # the number would be attached to the person.
+        print('-' * 100)
     elif choice == '2':
         j += 1
         numbers.append(j)
@@ -38,17 +40,26 @@ while True:
         genders.append(emp_gender)
         emp_address = input('请输入员工的住址：')
         addresses.append(emp_address)
+        print('%s已成功添加' % emp_name)
+        print('-' * 100)
     elif choice == '3':
         delete_emp = input('请输入想删除员工的名字：')
         if delete_emp in names:
-            index = names.index(delete_emp)
-            numbers.pop(index)
-            names.pop(index)
-            ages.pop(index)
-            genders.pop(index)
-            addresses.pop(index)
+            confirm = input('%s即将被删除，是否确认此操作[Y/N]' % delete_emp)
+            if confirm == 'y' or confirm == 'Y':
+                index = names.index(delete_emp)
+                numbers.pop(index)
+                names.pop(index)
+                ages.pop(index)
+                genders.pop(index)
+                addresses.pop(index)
+                print('%s已成功删除' % delete_emp)
+            else:
+                print('操作已取消')
+            print('-' * 100)
         else:
             print('该员工不存在')
+            print('-' * 100)
     elif choice == '4':
         input('谢谢使用，按回车键退出。')
         break
