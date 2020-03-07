@@ -59,3 +59,14 @@ print('a =', a)
 print('b =', b)
 print('c =', c)
 
+# 3. Dictionary
+print('3. Dictionary')
+print('-' * 50)
+
+profiles = {'name': '孙悟空', 'age': 18, 'gender': '男'}
+
+for i in profiles.items():
+    print(i)
+
+for k, v in profiles.items():   # Using unpack to fetch multiple elements in items (keys & values, 双值子序列)
+    print(k, v)
