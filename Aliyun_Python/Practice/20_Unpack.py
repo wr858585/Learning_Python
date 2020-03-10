@@ -46,7 +46,7 @@ print('a =', a)
 print('b =', b)
 print('c =', c)
 
-# List, string and other sequence types can also be unpacked.
+# List, string，tuple and other sequence types can also be unpacked.
 
 my_list = [1, 2, 3, 4]
 *a, b, c = my_list
@@ -55,6 +55,11 @@ print('b =', b)
 print('c =', c)
 
 a, *b, c = 'hello world'
+print('a =', a)
+print('b =', b)
+print('c =', c)
+
+a, b, *c = (1, 2, 3, 4)
 print('a =', a)
 print('b =', b)
 print('c =', c)
