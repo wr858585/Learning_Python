@@ -21,20 +21,20 @@ welcome('大野')
 
 
 def fn(a):
-    a = 20
-    print('a =', a)
+    a = 20  # Simply assign variable a without affecting c.
+    print('a =', a, id(a))
 
 
 c = 10
 fn(c)
-print('c =', c)
+print('c =', c, id(c))
 
 
 def fn2(a):
-    a[0] = 30
-    print('a =', a)
+    a[0] = 30   # Object [1, 2, 3] has been changed.
+    print('a =', a, id(a))
 
 
 c = [1, 2, 3]
 fn2(c)
-print('c =', c)
+print('c =', c, id(c))
