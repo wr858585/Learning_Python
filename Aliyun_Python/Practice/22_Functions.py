@@ -38,3 +38,17 @@ def fn2(a):
 c = [1, 2, 3]
 fn2(c)
 print('c =', c, id(c))
+
+
+def fn3(b):
+    b = 20
+    print('b =', b, id(b))
+
+
+# fn3(b) will get not defined error as b in fn3(b) is a local variable only in fn3.
+b = 10
+fn3(b)  # b = 20
+print('b =', b, id(b))  # b = 10
+
+# The two 'b's are different objects which both have the same value of 'b' but are stored in separate space in RAM.
+# They are independent local variable (b in fn3) and global variable.
