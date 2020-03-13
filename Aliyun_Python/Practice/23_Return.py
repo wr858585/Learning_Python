@@ -20,7 +20,7 @@ def fn2():
     def fn3():
         print('hello')
 
-
+fn2()
 print(fn2())    # It only returns None as fn3() is not called. Also keep in mind that print(fn2()) actually calls fn2().
 
 
@@ -35,4 +35,47 @@ def fn3():      # It is a global fn3() which is different from local fn3() in fn
     return fn4()
 
 
+fn3()
 print(fn3())
+
+
+print('4. fn4')
+
+
+def fn4():
+    def fn5():
+        print('hello')
+    return fn5      # It only returns the function without calling it. Therefore, the code in the function will not run.
+
+
+fn4()
+print(fn4())
+print(fn4)
+
+
+print('5. return result rather than print result')
+
+print(print(1))     # It shows that print function does not have a return value
+
+
+def sum_print_result(*nums):
+    result = 0
+    for i in nums:
+        result += i
+    print(result)
+
+
+def sum_return_result(*nums):
+    result = 0
+    for i in nums:
+        result += i
+    return result
+
+
+a = sum_print_result(1, 2, 3)       # Will display the result which is 6.
+b = sum_return_result(2, 3, 4)      # No result displayed.
+
+# print(a + 1) will cause trouble even hindering the line 79 being executed and shown. Consequently, The function
+# sum_print_result has very limited use.
+
+print(b + 1)    # The result in sum_return_result is easy to use and call when necessary.
