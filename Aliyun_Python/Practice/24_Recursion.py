@@ -57,10 +57,57 @@ print('Task 3: Create a function which tests whether a string is palindrome usin
 print()
 
 
-def palindrome(a: str):
+def palindrome_rec(a: str):
     """
         palindrome(a:str) is a function that detects whether a string is palindrome, returning True or False.
 
         Arguments:
             a: string
     """
+    letters = list(a)
+    count = len(letters)
+    # for i in range(0, count):
+    #     if letters[i] == letters[count - i]:
+    #         i += 1
+    #     else:
+    #         return False
+    if letters[0] == letters[count - 1]:
+        letters.pop(count - 1)
+        letters.pop(0)
+        if len(letters) <= 1:
+            return True
+        else:
+            a = letters
+            return palindrome_rec(a)
+    else:
+        return False
+
+
+print(palindrome_rec('str'))
+print(palindrome_rec('abcddcba'))
+print(palindrome_rec('abcdedcba'))
+
+
+def palindrome_rec_new(a: str):
+    if len(a) < 2:
+        return True
+    elif a[0] != a[-1]:
+        return False
+    else:
+        return palindrome_rec_new(a[1:-1])
+
+
+print(palindrome_rec_new('str'))
+print(palindrome_rec_new('abcddcba'))
+print(palindrome_rec_new('abcdedcba'))
+
+
+def palindrome_rec_new2(a: str):
+    if len(a) < 2:
+        return True
+    return a[0] == a[-1] and palindrome_rec_new2(a[1:-1])
+
+
+print(palindrome_rec_new2('str'))
+print(palindrome_rec_new2('abcddcba'))
+print(palindrome_rec_new2('abcdedcba'))
