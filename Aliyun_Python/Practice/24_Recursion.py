@@ -105,7 +105,7 @@ print(palindrome_rec_new('abcdedcba'))
 def palindrome_rec_new2(a: str):
     if len(a) < 2:
         return True
-    return a[0] == a[-1] and palindrome_rec_new2(a[1:-1])
+    return a[0] == a[-1] and palindrome_rec_new2(a[1:-1])       # If a[0] != a[-1], it returns False and exits.
 
 
 print(palindrome_rec_new2('str'))
