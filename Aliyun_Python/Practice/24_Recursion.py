@@ -111,3 +111,15 @@ def palindrome_rec_new2(a: str):
 print(palindrome_rec_new2('str'))
 print(palindrome_rec_new2('abcddcba'))
 print(palindrome_rec_new2('abcdedcba'))
+
+
+def palindrome_loop(a: str):
+    # for i in range(0, len(a)):
+    #     if len(a) < 2:
+    #         return True
+    #     else:
+    #     if a[i] == a[len(a) - i - 1]:
+    #
+    #     else:
+    #         return False
+
