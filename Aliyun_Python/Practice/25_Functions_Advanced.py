@@ -31,5 +31,22 @@ print(fn2())
 """
 return:
 hello
-None
+None 
+(Why there is a None? Because it is equivalent to print(fna()) as the return value of fn2 is fna(). See also part 2.)
+(We can also analyze it this way: print(fn2()) is different from print(fn2), the former being running the function of 
+fn2 and then printing the return value of fn2 (which is to equivalent to print(fna())), the latter being simply 
+printing fn2 physical address without running it.)
 """
+
+
+# 2. A more complicated case
+print('2. A more complicated case')
+
+
+def fn3():
+    print('hello')
+
+
+fn3()           # return: hello
+print(fn3)      # return: <function fn3 at 0x00D81A90>
+print(fn3())    # return: None (This is why line 34 shows None)
