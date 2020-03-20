@@ -50,3 +50,5 @@ def fn3():
 fn3()           # return: hello
 print(fn3)      # return: <function fn3 at 0x00D81A90>
 print(fn3())    # return: None (This is why line 34 shows None)
+
+# Advanced functions like these are often used in decorators.
