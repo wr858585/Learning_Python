@@ -8,7 +8,7 @@ print('1. return a function or its return value')
 def fn1():
     def fna():
         print('hello')
-    return fna
+    return fna  # return the function of fna itself
 
 
 fn1()           # return:
@@ -22,7 +22,7 @@ print('-' * 100)
 def fn2():
     def fna():
         print('hello')
-    return fna()
+    return fna()    # return the result of calling function fna
 
 
 fn2()           # return: hello
