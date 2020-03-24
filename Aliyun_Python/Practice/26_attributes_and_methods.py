@@ -14,7 +14,7 @@ p2 = Person()
 p1.name = '大野'
 p2.name = '杉山'
 
-p1.say_hello()
-print(p1)
-p2.say_hello()
-print(p2)
+p1.say_hello()      # <__main__.Person object at 0x02D61F58>
+print(p1)           # <__main__.Person object at 0x02D61F58>
+p2.say_hello()      # <__main__.Person object at 0x02D7D040>
+print(p2)           # <__main__.Person object at 0x02D7D040>
