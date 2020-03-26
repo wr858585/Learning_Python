@@ -91,3 +91,10 @@ class Dog:
 
     def bite(self):
         print()
+
+
+result_1 = issubclass(Dog, object)
+result_2 = isinstance(Dog, object)
+result_3 = issubclass(Dog, Person)
+result_4 = isinstance(Dog, Person)
+print(result_1, result_2, result_3, result_4)
