@@ -100,3 +100,22 @@ result_4 = isinstance(Dog, Person)
 print(result_1, result_2, result_3, result_4)
 
 # Any class is a subclass of object.
+
+print('-' * 100)
+
+# Task 4. Special methods introduction.
+print('4. Special methods introduction.')
+print()
+
+
+class A(object):
+    def __init__(self):
+        self._name = 'A类'
+
+    def __del__(self):
+        print('A()对象被删除了', self)
+
+
+a = A()
+
+input('回车键退出')
