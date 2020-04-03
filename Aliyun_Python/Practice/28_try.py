@@ -18,7 +18,7 @@ print('异常出现前')
 try:
     print(c)
     print(10/0)
-except NameError:
-    print('出现NameError异常')
+except NameError as exc:
+    print('出现NameError异常', exc, type(exc))
 
 print('异常出现后')
