@@ -22,3 +22,16 @@ except NameError as exc:
     print('出现NameError异常', exc, type(exc))
 
 print('异常出现后')
+
+print('-' * 100)
+
+print('文件操作的标准方式')
+
+file_name = 'hello'
+
+try:
+    with open(file_name) as file_obj:
+        print(file_obj.read())
+except FileNotFoundError:
+    print(f'{file_name}文件不存在')
+
