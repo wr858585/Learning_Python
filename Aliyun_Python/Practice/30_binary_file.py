@@ -9,5 +9,5 @@ with open(f'../demo/{file_name}', 'rb') as file_obj:
         while True:
             content = file_obj.read(chunk)
             new_obj.write(content)
-            if not content:
+            if not content:         # content is None after all is read.
                 break
