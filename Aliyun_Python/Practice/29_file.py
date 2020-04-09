@@ -16,3 +16,5 @@ try:
         #     print(t)
 except FileNotFoundError:
     print(f'{file_name}文件不存在')
+finally:
+    print('操作完毕')
