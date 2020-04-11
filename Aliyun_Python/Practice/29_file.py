@@ -18,3 +18,5 @@ except FileNotFoundError:
     print(f'{file_name}文件不存在')
 finally:    # Will run no matter what
     print('操作完毕')
+
+# Could also add else statement which is executed when no except is found.
