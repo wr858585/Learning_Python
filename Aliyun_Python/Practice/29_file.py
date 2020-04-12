@@ -7,7 +7,7 @@ try:
     with open(f'../demo/{file_name}', encoding='utf-8') as file_obj:
         content = file_obj.read(6)
         content = file_obj.read(6)
-        content = file_obj.read(6)
+        content = file_obj.read(6)      # read right after previous end
         print(content)
         print(len(content))
         # 也可以用readline(), readlines()等方法来读取
