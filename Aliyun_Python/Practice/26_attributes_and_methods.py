@@ -80,7 +80,7 @@ print('-' * 100)
 
 
 class Dog:
-    def __init__(self, name, age, sex, weight):
+    def __init__(self, name, age, sex, weight):     # Will require these four attributes filled when creating Dog class.
         self.name = name
         self.age = age
         self.sex = sex
