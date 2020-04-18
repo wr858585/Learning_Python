@@ -14,7 +14,7 @@ def narrative():
 
 
 title = '\t序号\t姓名\t年龄\t性别\t住址'
-employees = ['\t\t孙悟空\t18\t\t男\t\t花果山']
+employees = ['\t\t孙悟空\t18\t\t男\t\t花果山']     # One of the biggest difference compared to ems_1.0
 
 while True:
     narrative()
