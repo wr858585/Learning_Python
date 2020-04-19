@@ -23,7 +23,7 @@ while True:
         print(title)
         i = 1
         for emp in employees:
-            print(f'\t{i}{emp}')
+            print(f'\t{i}{emp}')    # i is staff number
             i += 1
     elif choice == '2':
         name = input('请输入员工的姓名：')
