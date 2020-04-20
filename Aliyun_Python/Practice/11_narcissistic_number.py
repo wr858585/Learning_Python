@@ -4,6 +4,7 @@
 # Background information: Narcissistic numbers are those whose value is equal to the sum of its own digits each raised
 # to the power of the number of digits.
 # For instance, 153 = 1 ** 3 + 5 ** 3 + 3 ** 3.
+# Actually the solution is the same for different programming languages as long as the loop logic is there.
 
 # Solution 1: (Incorrect)
 
