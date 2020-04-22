@@ -119,7 +119,7 @@ num = 2
 while num < 10000:
     factor = 2
     flag = True
-    while factor <= num ** 0.5:
+    while factor <= num ** 0.5:     # It could be further optimized using square root to reduce time complexity.
         if num % factor == 0:
             flag = False
             break
