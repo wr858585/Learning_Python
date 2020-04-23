@@ -17,7 +17,7 @@ print('2. fn2()')
 
 
 def fn2():
-    def fn3():
+    def fn3():   # Even though fn3 here is defined in fn2 without conflicts of global fn2, still better rename it.
         print('hello')
 
 fn2()
